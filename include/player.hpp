@@ -2,31 +2,29 @@
 
 #include "entity.h"
 
-#include <cstddef>
-#include <vector>
-
 namespace kai {
 
 class Maze;
 
-class Enemy : public Entity {
+class Player : public Entity {
 public:
-    Enemy();
+    Player();
 
     void initialize(const Maze& maze);
+    void resetToStart();
 
     void update() override;
     void draw() override;
 
+    Vector2 getPosition() const;
     Rectangle getBounds() const;
 
 private:
     const Maze* maze = nullptr;
-    std::vector<Vector2> patrolPath;
-    std::size_t nextWaypoint = 0;
-    float speed = 72.0f;
+    Vector2 startPosition{};
+    float moveCooldown = 0.0f;
 
-    void chooseNextPatrolRoute();
+    void tryMove(int deltaColumn, int deltaRow);
 };
 
 } // namespace kai

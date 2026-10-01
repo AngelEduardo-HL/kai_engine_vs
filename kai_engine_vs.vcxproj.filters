@@ -42,10 +42,16 @@
     <ClInclude Include="include\kai_gui.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\maze.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\menu.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\play.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\raygui.h">
@@ -74,10 +80,19 @@
     <ClCompile Include="src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="src\maze.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="src\menu.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\play.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\enemy.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -310,8 +310,10 @@
     <ClInclude Include="include\entity_manager.h" />
     <ClInclude Include="include\even_bus.hpp" />
     <ClInclude Include="include\kai_gui.hpp" />
+    <ClInclude Include="include\maze.hpp" />
     <ClInclude Include="include\menu.hpp" />
     <ClInclude Include="include\play.hpp" />
+    <ClInclude Include="include\player.hpp" />
     <ClInclude Include="include\raygui.h" />
     <ClInclude Include="include\resource_dir.h" />
     <ClInclude Include="include\scene.hpp" />
@@ -322,8 +324,11 @@
     <ClCompile Include="src\engine.cpp" />
     <ClCompile Include="src\kai_gui.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\maze.cpp" />
     <ClCompile Include="src\menu.cpp" />
     <ClCompile Include="src\play.cpp" />
+    <ClCompile Include="src\player.cpp" />
+    <ClCompile Include="src\enemy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="src\icon.ico" />
