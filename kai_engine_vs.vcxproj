@@ -37,40 +37,40 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v145</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <WindowsSDKDesktopARM64Support>true</WindowsSDKDesktopARM64Support>
   </PropertyGroup>
@@ -301,20 +301,22 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="include\bullet.h" />
     <ClInclude Include="include\canvas.hpp" />
     <ClInclude Include="include\circle.hpp" />
     <ClInclude Include="include\enemy.h" />
     <ClInclude Include="include\engine.hpp" />
+    <ClInclude Include="include\entity.h" />
+    <ClInclude Include="include\entity_manager.h" />
     <ClInclude Include="include\even_bus.hpp" />
     <ClInclude Include="include\kai_gui.hpp" />
     <ClInclude Include="include\menu.hpp" />
     <ClInclude Include="include\play.hpp" />
-    <ClInclude Include="include\player.h" />
-    <ClInclude Include="include\player.hpp" />
     <ClInclude Include="include\raygui.h" />
     <ClInclude Include="include\resource_dir.h" />
     <ClInclude Include="include\scene.hpp" />
     <ClInclude Include="include\scene_manager.hpp" />
+    <ClInclude Include="include\ship.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\engine.cpp" />
@@ -330,6 +332,7 @@
     <ResourceCompile Include="src\application.rc" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\ship.png" />
     <Image Include="resources\wabbit_alpha.png" />
   </ItemGroup>
   <ItemGroup>

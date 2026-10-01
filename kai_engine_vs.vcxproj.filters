@@ -15,6 +15,9 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="include\bullet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
     <ClInclude Include="include\canvas.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -25,6 +28,12 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\engine.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\entity_manager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\even_bus.hpp">
@@ -39,12 +48,6 @@
     <ClInclude Include="include\play.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\player.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="include\player.hpp">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\raygui.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -55,6 +58,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\scene_manager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ship.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -86,6 +92,9 @@
     </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
+    <Image Include="resources\ship.png">
+      <Filter>Game Resource Files</Filter>
+    </Image>
     <Image Include="resources\wabbit_alpha.png">
       <Filter>Game Resource Files</Filter>
     </Image>
